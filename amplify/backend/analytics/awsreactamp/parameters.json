@@ -1,0 +1,20 @@
+{
+    "appName": "awsreactamp",
+    "roleName": "pinpointLambdaRoleb618dffa",
+    "cloudWatchPolicyName": "cloudWatchPolicyb618dffa",
+    "pinpointPolicyName": "pinpointPolicyb618dffa",
+    "authPolicyName": "pinpoint_amplify_b618dffa",
+    "unauthPolicyName": "pinpoint_amplify_b618dffa",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

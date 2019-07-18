@@ -1,0 +1,19 @@
+{
+    "venv": {
+        "awscloudformation": {
+            "AuthRoleName": "aws-react-amp-venv-20190717162214-authRole",
+            "UnauthRoleArn": "arn:aws:iam::873020613568:role/aws-react-amp-venv-20190717162214-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::873020613568:role/aws-react-amp-venv-20190717162214-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "aws-react-amp-venv-20190717162214-deployment",
+            "UnauthRoleName": "aws-react-amp-venv-20190717162214-unauthRole",
+            "StackName": "aws-react-amp-venv-20190717162214",
+            "StackId": "arn:aws:cloudformation:us-east-1:873020613568:stack/aws-react-amp-venv-20190717162214/91fa8890-a8d0-11e9-9621-0a129e2750f4"
+        },
+        "categories": {
+            "auth": {
+                "awsreactamp7edc5b44": {}
+            }
+        }
+    }
+}
